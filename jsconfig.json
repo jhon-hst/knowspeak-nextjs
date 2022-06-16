@@ -1,0 +1,19 @@
+{
+    "baseUrl": ".", // removed src from baseurl 
+    "paths": { // ensure paths were updated relative to base url 
+        "@static/*": [
+            "./public/static/*"
+        ],
+        "@generated/*": [
+            "./src/__generated__/*"
+        ],
+        "@*": [
+            "./src*"
+        ]
+    },
+    "include": [
+        "next-env.d.ts",
+        "pages/**/*",
+        "src/**/*",
+    ]
+}
