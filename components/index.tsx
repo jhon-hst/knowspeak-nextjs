@@ -1,1 +1,1 @@
-// export * from 'Button';
+export { default as ImageExample } from './imageExample'

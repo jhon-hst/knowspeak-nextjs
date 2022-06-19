@@ -1,0 +1,9 @@
+-globals
+
+component
+    -styles
+    index
+
+page
+    -styles
+    index
