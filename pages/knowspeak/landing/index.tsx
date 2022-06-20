@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from './Landing.module.scss'
-import { ImageExample } from '@components'
 
 const Home: NextPage = () => {
 
@@ -17,18 +16,29 @@ const Home: NextPage = () => {
                 <main className={styles.main}>
                     <h1 className={styles.titleLogo}>Know<span>speak</span></h1>
                     <div className={`row ${styles.header}`}>
-                        <div className='col-12 col-lg-7'>
-                            <ImageExample />
-                        </div>
                         <div className='col-12 col-lg-5'>
                             <h2>Aprende ingles viendo videos</h2>
                             <p>Analiza palabra por palabra y frase por frase a través de los subtitulos</p>
-                            <ImageExample width='300' height='70' color="FFFFFF" />
+                            <img src='/assets/images/google-play-badge.png' className='img-fluid' />
+                        </div>
+                        <div className='col-12 col-lg-7'>
+                            <div className={'d-flex flex-row'}>
+                                <div className=''>
+                                    <img src='/assets/images/inicial.png' className='img-fluid' />
+                                </div>
+                                <div className=''>
+                                    <img src='/assets/images/inicial-video.png' className='img-fluid' />
+                                    <img src='/assets/images/window-traductor.png' className='img-fluid' />
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div>
+                        <img src='/assets/images/partes-del-traductor.png' className='img-fluid' />
+                    </div>
                     <div className='row'>
-                        <div className='col-12 col-lg-6'>
-                            <ImageExample />
+                        <div className='col-12 col-lg-3'>
+                            <img src='/assets/images/border-in-field-video.png' className='img-fluid' />
                         </div>
                         <div className='col-12 col-lg-6'>
                             <p>1</p>
@@ -43,13 +53,13 @@ const Home: NextPage = () => {
                             <p>Puedes cargar un archivo .srt o .vtt que son donde por lo general se guardan los subtitlos de un video o también puedes agregar el link.</p>
                             <p>Nota: Para videos de youtube no es necesario buscar los subtitlos, ya estos vienen incluidos en el video</p>
                         </div>
-                        <div className='col-12 col-lg-6'>
-                            <ImageExample />
+                        <div className='col-12 col-lg-3'>
+                            <img src='/assets/images/border-in-field-to-subtitles.png' className='img-fluid' />
                         </div>
                     </div>
                     <div className='row'>
                         <div className='col-12 col-lg-6'>
-                            <ImageExample />
+                            <img src='/assets/images/inicial-video.png' className='img-fluid' />
                         </div>
                         <div className='col-12 col-lg-6'>
                             <p>3</p>
@@ -58,11 +68,12 @@ const Home: NextPage = () => {
                             <p>Puesdes selecionar más de una palabra para analizar la frase completa.</p>
                         </div>
                     </div>
-
-
+                    <div>
+                        <img src='/assets/images/player-buttons.png' className='img-fluid' />
+                    </div>
                 </main>
 
-            </div>
+            </div >
             <footer className={styles.footer}>
                 <a
                     href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -75,7 +86,7 @@ const Home: NextPage = () => {
                     </span>
                 </a>
             </footer>
-        </div>
+        </div >
     )
 }
 
