@@ -1,8 +1,8 @@
-conenctar la play estore al boton
-scrollbar
-fondo
-textos
+agregar formas en el fondo para darle un toque más de estilo
+
 Pagina de politicas de privacidad
+
+textos
 SEO texts
 desplegar
 

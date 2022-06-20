@@ -59,6 +59,12 @@
         background-color: $card;
     }
 
+    .waveContainer {
+        height: 150px;
+        overflow: hidden;
+        margin-top: -1px;
+    }
+
     .footer {
         background-color: $text;
         color: $background;
@@ -105,6 +111,7 @@
 
         .header {
             padding: 30px 100px 0 100px;
+            z-index: 1;
 
             .title {
                 font-size: 3rem;

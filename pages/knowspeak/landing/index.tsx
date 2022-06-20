@@ -24,7 +24,9 @@ const Home: NextPage = () => {
                             </div>
                             <p className={`mt-2 mb-4 mt-md-3 ${styles.description}`}>Analiza palabra por palabra y frase por frase a través de los subtitulos</p>
                             <div className={`${styles.containerStoreImage} mb-3`}>
-                                <img src='/assets/images/google-play-badge.png' className={`${styles.storeImage} mb-4`} />
+                                <a target="_blank" href='https://play.google.com/store/apps/details?id=com.knowspeak&hl=es_CO&gl=US'>
+                                    <img src='/assets/images/google-play-badge.png' className={`${styles.storeImage} mb-4`} />
+                                </a>
                             </div>
                         </div>
                         <div className='col-12 col-md-5 d-none d-md-block'>
@@ -33,7 +35,15 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={`${styles.whiteSection} justify-content-center row py-5`}>
+                    <div className={`${styles.whiteSection} justify-content-center row`}>
+                        <div style={{}} className={`${styles.waveContainer} px-0 p-0 py-0`}>
+                            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{ height: '100%', width: '100%' }}>
+                                <path d="M0.00,49.99 C148.14,146.55 271.49,-49.99 500.00,49.99 L500.00,0.00 L0.00,0.00 Z" style={{ stroke: 'none', fill: '#263859' }}>
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
                         <div className='col-12 col-md-8 col-lg-6'>
                             <img src='/assets/images/partes-del-traductor.png' className='img-fluid' />
                         </div>
