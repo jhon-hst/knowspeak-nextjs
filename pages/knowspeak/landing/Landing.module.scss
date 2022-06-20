@@ -1,30 +1,114 @@
 @import "../styles/knowspeak.scss";
 
 .landing {
-    background-color: $text;
-    color: $background ;
-    padding-top: 20px;
-
-    .titleLogo {
-        font-family: 'Manrope', sans-serif;
-        font-weight: 900;
-        color: red;
-        color: $notification;
-        // background-color: $text;
-        padding: 20px;
-        border-radius: 50px;
-
-        span {
-            color: $primary;
-        }
-    }
+    background-color: $background ;
+    color: $text;
 
     .header {
-        min-height: 100vh;
+        background-color: $text;
+        color: $background;
+        padding: 10px 20px 0 10px;
 
+        .titleLogo {
+            font-family: 'Manrope', sans-serif;
+            font-weight: 900;
+            color: $notification;
+            font-size: 2rem;
+
+            span {
+                color: $primary;
+            }
+        }
+
+        .title {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .description {
+            font-size: 1.5rem;
+        }
+
+        .containerStoreImage {
+            justify-content: center;
+            display: flex;
+        }
+
+        .storeImage {
+            width: 200px;
+        }
+
+        .containerImageHeader {
+            justify-content: center;
+            display: flex;
+
+            .verticalCellphoneHeader {
+                height: 350px;
+                margin-top: 20px;
+            }
+        }
+
+    }
+
+    .verticalCellphone {
+        height: 300px;
+        align-self: center;
+    }
+
+    .whiteSection {
+        background-color: $card;
     }
 
     .footer {
         background-color: $text;
+        color: $background;
+        height: 60px;
+        padding: 15px;
+        justify-content: center;
+        display: flex;
+
+        .link {
+            text-align: center;
+            color: $background;
+        }
+
+        .link:hover {
+            color: $primary;
+        }
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .landing {
+
+        .header {
+
+            padding: 30px 30px 0 30px;
+
+            .title {
+                font-size: 2rem;
+                text-align: left;
+            }
+
+            .containerStoreImage {
+                justify-content: left;
+
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .landing {
+
+        .header {
+            padding: 30px 100px 0 100px;
+
+            .title {
+                font-size: 3rem;
+            }
+        }
     }
 }
