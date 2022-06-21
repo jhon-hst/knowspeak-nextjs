@@ -1,1 +1,12 @@
 @import "variables";
+
+.titleLogo {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    color: $notification;
+    font-size: 2rem;
+
+    span {
+        color: $primary;
+    }
+}
