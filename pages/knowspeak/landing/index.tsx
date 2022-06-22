@@ -25,7 +25,7 @@ const Home: NextPage = () => {
                             <p className={`mt-2 mb-4 mt-md-3 ${styles.description}`}>Que mejor manera de aprender un idioma que escuchando y analizando a los nativos. </p>
                             <p className={`mt-2 mb-4 mt-md-3 ${styles.description}`}>Esta App es una excelente herramienta que te hará la vida muy fácil para analizar palabras o frases a través de los subtítulos de un video. </p>
                             <div className={`${styles.containerStoreImage} mb-3`}>
-                                <a target="_blank" href='https://play.google.com/store/apps/details?id=com.knowspeak&hl=es_CO&gl=US'>
+                                <a target="_blank" rel="noreferrer" href='https://play.google.com/store/apps/details?id=com.knowspeak&hl=es_CO&gl=US'>
                                     <img src='/assets/images/google-play-badge.png' className={`${styles.storeImage} mb-4`} />
                                 </a>
                             </div>
