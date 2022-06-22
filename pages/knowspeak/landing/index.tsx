@@ -10,8 +10,8 @@ const Home: NextPage = () => {
             <div className={'container-fluid'}>
                 <Head>
                     <title>Knowspeak</title>
-                    <meta name="description" content="Aprende inglés viendo videos" />
-                    <link rel="icon" href="/favicon.ico" />
+                    <meta name="description" content="Aprende inglés viendo videos, Que mejor manera de aprender un idioma que escuchando y analizando a los nativos." />
+                    <link rel="icon" href="/knowspeakicon.png" />
                 </Head>
 
                 <main className=''>
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                         </div>
                     </div>
                     <div className={`${styles.whiteSection} justify-content-center row`}>
-                        <div style={{}} className={`${styles.waveContainer} px-0 p-0 py-0`}>
+                        <div className={`${styles.waveContainer} px-0 p-0 py-0`}>
                             <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{ height: '100%', width: '100%' }}>
                                 <path d="M0.00,49.99 C148.14,146.55 271.49,-49.99 500.00,49.99 L500.00,0.00 L0.00,0.00 Z" style={{ stroke: 'none', fill: '#263859' }}>
                                 </path>
@@ -46,18 +46,18 @@ const Home: NextPage = () => {
                     </div>
                     <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
                         <div className='col-12 col-md-8 col-lg-6'>
-                            <p>Lo mejor es que los videos que puedes ver son ilimitados, ya que eres tu mismo quien lo escoge desde las plataformas más populares como YouTube.</p>
+                            <p className={`${styles.subtitles}`}>Lo mejor es que los videos que puedes ver son ilimitados, ya que eres tu mismo quien lo escoge desde las plataformas más populares como YouTube.</p>
                         </div>
                     </div>
                     <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
                         <div className='col-12 col-md-8 col-lg-6'>
                             <img src='/assets/images/partes-del-traductor.png' className='img-fluid' />
-                            <p>Nuestra App te permite hacer un analice de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.</p>
+                            <p className={`${styles.subtitles} mt-5`}>Nuestra App te permite hacer un analice de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.</p>
                         </div>
+                        <h2 className={`text-center mt-5 mb-3`}>¿Cómo funciona? </h2>
                     </div>
                     <div className={`row mt-5 justify-content-center align-items-center`}>
-                        <p>¿Cómo funciona? </p>
-                        <div className='col-12 col-md-5 col-lg-4 mb-3 order-md-2'>
+                        <div className='col-12 col-md-5 mt-5 col-lg-4 mb-3 order-md-2'>
                             <h3>1) Selecciona un video</h3>
                             <p>Accede a tu galería o agrega el link. </p>
                             <p>Para videos de YouTube solo debes copiar y pegar el link que usas para compartir y agregarlo en el formulario. Y así de fácil, solamente ten en cuanta que el video debe tener subtítulos.</p>
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
                     <div className={`${styles.whiteSection} align-items-center justify-content-center row mt-5 py-5`}>
                         <div className='col-12 col-md-5 col-lg-4 mb-3'>
                             <h3>2) Agrega los subtítulos</h3>
-                            <p>Nota: Para videos de YouTube no es necesario hacer este paso, los subtítulos ya vienen incluidos en el video.</p>
+                            <p><strong>Nota:</strong> Para videos de YouTube no es necesario hacer este paso, los subtítulos ya vienen incluidos en el video.</p>
                             <p>Puedes cargar un archivo .srt o .vtt los cuales son por lo general donde se guardan los subtítulos de un video o también puedes agregar el link donde se alojan.</p>
                         </div>
                         <div className='col-12 col-md-5 col-lg-3 d-flex justify-content-center'>
@@ -90,12 +90,12 @@ const Home: NextPage = () => {
                     <div className={`${styles.whiteSection} justify-content-center row pt-5 pb-5`}>
                         <div className='col-12 col-md-8 col-lg-6'>
                             <img src='/assets/images/player-buttons.png' className='img-fluid' />
-                            <p>Retroceder o adelantar el video en cortos plazos para escuchar en repetidas ocasiones la frase.</p>
+                            <p className={`${styles.subtitles} mt-5`}>Retroceder o adelantar el video en cortos plazos para escuchar en repetidas ocasiones la frase.</p>
                         </div>
                     </div>
                     <div className={`justify-content-center row pb-5`}>
                         <div className='col-12 col-md-8 col-lg-6'>
-                            <p>Estamos en pleno desarrollo de app, pronto vendrán nuevas funcionalidades que te harán la vida aún muy fácil para aprender inglés.</p>
+                            <p className={`${styles.subtitles} mt-5`}>Estamos en pleno desarrollo de la app, pronto vendrán nuevas funcionalidades que te harán la vida aún muy fácil para aprender inglés.</p>
                         </div>
                     </div>
                 </main>
