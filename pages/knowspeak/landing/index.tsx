@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from './Landing.module.scss'
+import Image from 'next/image'
+import as from '@assets/Images/partes-del-traductor.png'
 
 const Home: NextPage = () => {
 
@@ -51,7 +53,7 @@ const Home: NextPage = () => {
                     </div>
                     <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
                         <div className='col-12 col-md-8 col-lg-6'>
-                            <img src='/assets/images/partes-del-traductor.png' className='img-fluid' />
+                            <Image src={as} />
                             <p className={`${styles.subtitles} mt-5`}>Nuestra App te permite hacer un analice de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.</p>
                         </div>
                         <h2 className={`text-center mt-5 mb-3`}>¿Cómo funciona? </h2>
