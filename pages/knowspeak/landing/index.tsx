@@ -3,7 +3,15 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from './Landing.module.scss'
 import Image from 'next/image'
-import as from '@assets/Images/partes-del-traductor.png'
+import {
+    inicial,
+    googlePlayBadge,
+    partesDelTraductor,
+    borderInFieldVideo,
+    borderInFieldToSubtitles,
+    inicialVideo,
+    playerButtons,
+} from '@assets/Images'
 
 const Home: NextPage = () => {
 
@@ -22,19 +30,19 @@ const Home: NextPage = () => {
                         <div className='col-12 col-md-7 '>
                             <h2 className={`${styles.title} mt-3 mt-md-5`}>Aprende inglés viendo videos</h2>
                             <div className={`${styles.containerImageHeader} d-md-none`}>
-                                <img src='/assets/images/inicial.png' className={styles.verticalCellphoneHeader} />
+                                <Image src={inicial} width={1} height={2} layout="responsive" />
                             </div>
                             <p className={`mt-2 mb-4 mt-md-3 ${styles.description}`}>Que mejor manera de aprender un idioma que escuchando y analizando a los nativos. </p>
                             <p className={`mt-2 mb-4 mt-md-3 ${styles.description}`}>Esta App es una excelente herramienta que te hará la vida muy fácil para analizar palabras o frases a través de los subtítulos de un video. </p>
-                            <div className={`${styles.containerStoreImage} mb-3`}>
+                            <div className={`${styles.containerStoreImage} mb-3 mt-5`}>
                                 <a target="_blank" rel="noreferrer" href='https://play.google.com/store/apps/details?id=com.knowspeak&hl=es_CO&gl=US'>
-                                    <img src='/assets/images/google-play-badge.png' className={`${styles.storeImage} mb-4`} />
+                                    <Image src={googlePlayBadge} width={100} height={30} layout="responsive" />
                                 </a>
                             </div>
                         </div>
                         <div className='col-12 col-md-5 d-none d-md-block'>
                             <div className={styles.containerImageHeader}>
-                                <img src='/assets/images/inicial.png' className={styles.verticalCellphoneHeader} />
+                                <Image src={inicial} width={1} height={2} layout="responsive" />
                             </div>
                         </div>
                     </div>
@@ -53,7 +61,7 @@ const Home: NextPage = () => {
                     </div>
                     <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
                         <div className='col-12 col-md-8 col-lg-6'>
-                            <Image src={as} />
+                            <Image src={partesDelTraductor} />
                             <p className={`${styles.subtitles} mt-5`}>Nuestra App te permite hacer un analice de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.</p>
                         </div>
                         <h2 className={`text-center mt-5 mb-3`}>¿Cómo funciona? </h2>
@@ -64,8 +72,10 @@ const Home: NextPage = () => {
                             <p>Accede a tu galería o agrega el link. </p>
                             <p>Para videos de YouTube solo debes copiar y pegar el link que usas para compartir y agregarlo en el formulario. Y así de fácil, solamente ten en cuanta que el video debe tener subtítulos.</p>
                         </div>
-                        <div className='col-12 col-md-5 col-lg-3 d-flex justify-content-center order-md-1'>
-                            <img src='/assets/images/border-in-field-video.png' className={styles.verticalCellphone} />
+                        <div className='col-12 col-md-5 col-lg-3 d-flex justify-content-center order-md-1 '>
+                            <div className={styles.containerVerticalCellphone}>
+                                <Image src={borderInFieldVideo} />
+                            </div>
                         </div>
                     </div>
 
@@ -76,7 +86,9 @@ const Home: NextPage = () => {
                             <p>Puedes cargar un archivo .srt o .vtt los cuales son por lo general donde se guardan los subtítulos de un video o también puedes agregar el link donde se alojan.</p>
                         </div>
                         <div className='col-12 col-md-5 col-lg-3 d-flex justify-content-center'>
-                            <img src='/assets/images/border-in-field-to-subtitles.png' className={styles.verticalCellphone} />
+                            <div className={styles.containerVerticalCellphone}>
+                                <Image src={borderInFieldToSubtitles} />
+                            </div>
                         </div>
                     </div>
                     <div className={`row mt-5 justify-content-center  align-items-center pb-5`}>
@@ -86,12 +98,13 @@ const Home: NextPage = () => {
                             <p>Puedes seleccionar más de una palabra para analizar la frase completa.</p>
                         </div>
                         <div className='col-12 col-md-5 col-lg-6 order-md-1'>
-                            <img src='/assets/images/inicial-video.png' className={'img-fluid'} />
+                            <Image src={inicialVideo} className={'img-fluid'} />
                         </div>
+
                     </div>
                     <div className={`${styles.whiteSection} justify-content-center row pt-5 pb-5`}>
                         <div className='col-12 col-md-8 col-lg-6'>
-                            <img src='/assets/images/player-buttons.png' className='img-fluid' />
+                            <Image src={playerButtons} className='img-fluid' />
                             <p className={`${styles.subtitles} mt-5`}>Retroceder o adelantar el video en cortos plazos para escuchar en repetidas ocasiones la frase.</p>
                         </div>
                     </div>
