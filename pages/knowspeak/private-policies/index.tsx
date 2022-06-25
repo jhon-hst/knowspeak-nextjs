@@ -13,7 +13,7 @@ const PrivatePolicies: NextPage = () => {
       </Head>
 
       <main className={'container'}>
-        <Link href={'/knowspeak/landing'}>
+        <Link href={'/'}>
           <a>
             <h1 className={`mt-5 ${styles.titleLogo}`}>Know<span>speak</span></h1>
           </a>
