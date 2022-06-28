@@ -19,20 +19,20 @@ const Home: NextPage = () => {
     <div className={styles.landing}>
       <div className={'container-fluid'}>
         <Head>
-          <title>Knowspeak</title>
+          <title>KnowSpeak</title>
           <meta name="description" content="Aprende inglés viendo videos, Que mejor manera de aprender un idioma que escuchando y analizando a los nativos." />
           <link rel="icon" href="/knowspeakicon.png" />
         </Head>
 
         <main className=''>
           <div className={`row ${styles.header} pb-md-3`}>
-            <h1 className={styles.titleLogo}>Know<span>speak</span></h1>
+            <h1 className={styles.titleLogo}>Know<span>Speak</span></h1>
             <div className='col-12 col-md-7 '>
               <h2 className={`${styles.title} mt-3 mt-md-5`}>Aprende inglés viendo videos ✈</h2>
               <div className={`${styles.containerImageHeader} d-md-none`}>
                 <Image src={inicial} width={1} height={2} layout="responsive" />
               </div>
-              <p className={`mt-2 mb-4 mt-md-3 ${styles.description}`}>Que mejor manera de aprender un idioma que escuchando y analizando a los nativos. </p>
+              <p className={`mt-2 mb-4 mt-md-3 ${styles.description}`}>La mejor manera de aprender un idioma es escuchando y analizando a los nativos. </p>
               <p className={`mt-2 mb-4 mt-md-3 ${styles.description}`}>Esta App es una excelente herramienta que te hará la vida muy fácil para analizar palabras o frases a través de los subtítulos de un video. 🏁</p>
               <div className={`${styles.containerStoreImage} mb-3 mt-5`}>
                 <a target="_blank" rel="noreferrer" href='https://play.google.com/store/apps/details?id=com.knowspeak&hl=es_CO&gl=US'>
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
           <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
             <div className='col-12 col-md-8 col-lg-6'>
               <Image src={partesDelTraductor} />
-              <p className={`${styles.subtitles} mt-5`}>Nuestra App te permite hacer un analice de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.</p>
+              <p className={`${styles.subtitles} mt-5`}>Nuestra App te permite hacer un análisis de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.</p>
             </div>
             <h2 className={`text-center mt-5 mb-3`}>¿Cómo funciona? </h2>
           </div>
@@ -110,7 +110,7 @@ const Home: NextPage = () => {
           </div>
           <div className={`justify-content-center row pb-5`}>
             <div className='col-12 col-md-8 col-lg-6'>
-              <p className={`${styles.subtitles} mt-5`}>Estamos en pleno desarrollo de la app, pronto vendrán nuevas funcionalidades que te harán la vida aún muy fácil para aprender inglés.</p>
+              <p className={`${styles.subtitles} mt-5`}>Estamos en pleno desarrollo de la app, pronto vendrán nuevas funcionalidades que te harán la vida aún más fácil para aprender inglés.</p>
             </div>
           </div>
         </main>
