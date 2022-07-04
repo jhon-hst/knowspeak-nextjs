@@ -1,2 +1,73 @@
 agregar formas en el fondo para darle un toque más de estilo
 
+
+
+Aprende inglés viendo videos 
+-> se muestra un video como el de youtube cuando esta cargando
+
+La mejor manera de aprender un idioma es escuchando y analizando a los nativos.
+-> Personas hablando entre ellas
+
+KnowSpeak es una excelente herramienta que te hará la vida muy fácil para analizar palabras o frases a través de los subtítulos de un video.
+-> Persona con el celular, luego se acerca al teléfeno y se ve un video con subtitulos, despues hace click sobre un texto mostrandose la ventana donde se hace el analisis.
+
+Nuestra App te permite hacer un análisis de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.
+-> se muestra la parte de app con los controles de anáslisis
+
+Lo mejor es que los videos que puedes ver son ilimitados, ya que eres tu mismo quien lo escoge desde las plataformas más populares [como YouTube <- en video si y en otro no].
+-> Se muestra algo como la lista videos de youtube pero cargando
+
+¿Cómo funciona?
+
+1- Selecciona un video
+
+Accede a tu galería o agrega el link.
+
+Para los videos que se encuentran en la principales plataformas de video solo debes copiar y pegar el link que usas para compartir y agregarlo en el formulario. Y así de fácil, solamente ten en cuanta que el video debe tener subtítulos.
+
+-> se muestra copienado y pegando el link en la app también acercandose al ícono de los subtitlulos y señalandolo
+
+2- Agrega los subtítulos
+
+Para los videos que se encuentra en la principales plataformas de video no es necesario hacer este paso ya que los subtítulos ya vienen incluidos en el video.
+
+Puedes cargar un archivo .srt o .vtt los cuales son por lo general donde se guardan los subtítulos de un video o también puedes agregar el link donde se alojan.
+
+-> se muestra accediendo al gestor de archivos y agregando un archivo .srt
+
+
+Y eso es todo, Disfruta viendo el video
+
+Una vez empiezas a ver el video los subtítulos aparecerán, si no entiendes una palabra puedes presionar sobre ella y se abrirá una ventana donde la puedes analizar, viendo la traducción al español o escuchándola en distintas velocidades.
+
+Puedes seleccionar más de una palabra para analizar la frase completa.
+
+-> se muestra a un persona feliz celebrando con un celular luego se acerca al celular y se ve como se le da click sobre un texto y los escucha y luego seleciona otro texto y lo traduce 
+
+
+
+
+
+
+Aprende inglés viendo vídeos.
+La mejor manera de aprender un idioma es escuchando y analizando a los nativos.
+KnowSpiík es una excelente herramienta que te hará la vida muy fácil para analizar palabras o frases, a travésdelos subtítulos de un video.
+Nuestra App te permite hacer un análisis de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app, esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.
+Lo mejor es que los vídeos que puedes ver son ilimitados, ya que eres tú mismo quien lo escoge desde las plataformas más populares.
+Lo mejor es que los vídeos que puedes ver son ilimitados, ya que eres tú mismo quien lo escoge desde las plataformas más populares como youtube.
+Pero  ¿Cómo funciona?.
+Primero Selecciona un vídeo.
+Para los vídeos que se encuentran en las principales plataformas de vídeo, solo debes copiar él link que usas para compartir y pegarlo en el formulario. !Y así de fácil¡, solamente ten en cuanta que el vídeo debe tener subtítulos.
+Accede a tu galería o agrega un link.
+paso número dos, Agrega los subtítulos.
+Para los vídeos que se encuentra en las principales plataformas de video, no es necesario hacer este paso ya que los subtítulos ya vienen incluidos.
+Puedes cargar un archivo  punto s r t, o punto v t t, los cuales son por lo general donde se guardan los subtítulos de un vídeo, o también puedes agregar un link donde se alojan.
+¡Y eso es todo! Disfruta viendo el vídeo y aprendiendo.
+Una vez empiezas a ver el vídeo, los subtítulos aparecerán y si no entiendes una palabra puedes presionar sobre ella, y se abrirá una ventana donde la puedes analizar, viendo la traducción al español o escuchándola en distintas velocidades.
+Además Puedes seleccionar más de una palabra para analizar la frase completa.
+¡Aprender un idioma nunca había sido tan fácil y divertido!. ¿Qué esperas?. Descarga ahora mismo knowspiík.
+
+
+
+
+

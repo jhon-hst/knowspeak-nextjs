@@ -56,6 +56,13 @@ const Home: NextPage = () => {
           </div>
           <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
             <div className='col-12 col-md-8 col-lg-6'>
+              <div className="embed-responsive youtube-video">
+                <iframe className={`embed-responsive-item ${styles.youtubeVideo}`} src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowFullScreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
+            <div className='col-12 col-md-8 col-lg-6'>
               <p className={`${styles.subtitles}`}>Lo mejor es que los videos que puedes ver son ilimitados, ya que eres tu mismo quien lo escoge desde las plataformas más populares como YouTube. 🎥</p>
             </div>
           </div>
