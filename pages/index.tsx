@@ -57,7 +57,7 @@ const Home: NextPage = () => {
           <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
             <div className='col-12 col-md-8 col-lg-6'>
               <div className="embed-responsive youtube-video">
-                <iframe className={`embed-responsive-item ${styles.youtubeVideo}`} src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowFullScreen></iframe>
+                <iframe className={`embed-responsive-item ${styles.youtubeVideo}`} src="https://www.youtube.com/embed/vABuCwhQgnA?rel=0" allowFullScreen></iframe>
               </div>
             </div>
           </div>
