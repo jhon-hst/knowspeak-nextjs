@@ -124,7 +124,7 @@ const Home: NextPage = () => {
 
       </div >
       <footer className={`${styles.footer} `}>
-        <Link href="/knowspeak/private-policies">
+        <Link href="/privacy-policies">
           <a className={styles.link}>Políticas de privacidad</a>
         </Link>
       </footer>
