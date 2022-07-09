@@ -68,7 +68,7 @@ const Home: NextPage = () => {
           </div>
           <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
             <div className='col-12 col-md-8 col-lg-6'>
-              <Image src={playerButtons} />
+              <Image src={partesDelTraductor} />
               <p className={`${styles.subtitles} mt-5`}>Nuestra App te permite hacer un análisis de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.</p>
             </div>
             <h2 className={`text-center mt-5 mb-3`}>¿Cómo funciona? </h2>
@@ -111,23 +111,9 @@ const Home: NextPage = () => {
           </div>
           <div className={`${styles.whiteSection} justify-content-center row pt-5 pb-5`}>
             <div className='col-12 col-md-8 col-lg-6'>
-              <Image src={partesDelTraductor} />
+              <Image src={playerButtons} />
               <p className={`${styles.subtitles} mt-5`}>Retroceder o adelantar el video en cortos plazos para escuchar en repetidas ocasiones la frase.</p>
             </div>
-          </div>
-          <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
-            <div className='col-12 col-md-8 col-lg-6'>
-              <Image src={playerButtons} />
-              <p className={`${styles.subtitles} mt-5`}>Nuestra App te permite hacer un análisis de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.</p>
-            </div>
-            <h2 className={`text-center mt-5 mb-3`}>¿Cómo funciona? </h2>
-          </div>
-          <div className={`${styles.whiteSection} justify-content-center row pb-5`}>
-            <div className='col-12 col-md-8 col-lg-6'>
-              <Image src={partesDelTraductor} />
-              <p className={`${styles.subtitles} mt-5`}>Nuestra App te permite hacer un análisis de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.</p>
-            </div>
-            <h2 className={`text-center mt-5 mb-3`}>¿Cómo funciona? </h2>
           </div>
           <div className={`justify-content-center row pb-5`}>
             <div className='col-12 col-md-8 col-lg-6'>
