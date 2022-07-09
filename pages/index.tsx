@@ -108,7 +108,7 @@ const Home: NextPage = () => {
               <Image src={inicialVideo} />
             </div> */}
             <div className={styles.containerVerticalCellphone}>
-              <Image src={borderInFieldToSubtitles} />
+              <Image src={inicialVideo} />
             </div>
 
           </div>
@@ -116,7 +116,7 @@ const Home: NextPage = () => {
             <div className='col-12 col-md-8 col-lg-6'>
               {/* <Image src={playerButtons} /> */}
               <div className={styles.containerVerticalCellphone}>
-                <Image src={borderInFieldToSubtitles} />
+                <Image src={playerButtons} />
               </div>
               <p className={`${styles.subtitles} mt-5`}>Retroceder o adelantar el video en cortos plazos para escuchar en repetidas ocasiones la frase.</p>
             </div>
