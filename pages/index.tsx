@@ -117,7 +117,7 @@ const Home: NextPage = () => {
           </div>
           <div className={`justify-content-center row pb-5`}>
             <div className='col-12 col-md-8 col-lg-6'>
-              <p className={`${styles.subtitles} mt-5`}>Estamos en pleno desarrollo de la app, pronto vendrán nuevas funcionalidades que te harán la vida aún más fácil para aprender inglés.</p>
+              <p className={`${styles.subtitles} mt-5`}>Estamos en pleno desarrollo de la app, pronto vendrán nuevas funcionalidades que te harán la vida aún más fácil para aprender inglés. </p>
             </div>
           </div>
         </main>
