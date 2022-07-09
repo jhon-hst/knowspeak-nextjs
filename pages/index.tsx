@@ -19,7 +19,7 @@ const Home: NextPage = () => {
     <div className={styles.landing}>
       <div className={'container-fluid'}>
         <Head>
-          <title>KnowSpeak</title>
+          <title>KnowSpeak de</title>
           <meta name="description" content="Aprende inglés viendo videos, Que mejor manera de aprender un idioma que escuchando y analizando a los nativos." />
           <link rel="icon" href="/knowspeakicon.png" />
         </Head>
