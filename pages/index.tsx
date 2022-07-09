@@ -71,7 +71,7 @@ const Home: NextPage = () => {
               <Image src={partesDelTraductor} />
               <p className={`${styles.subtitles} mt-5`}>Nuestra App te permite hacer un análisis de cada palabra o de cada frase, traduciendo en el momento y sin salir de la app esas palabras que aún desconoces, escuchándolas en varias velocidades para entender su correcta pronunciación.</p>
             </div>
-            <h2 className={`text-center mt-5 mb-3`}>¿Cómo funciona? </h2>
+            <h2 className={`text-center mt-5 mb-3`}>¿Pero y Cómo funciona? </h2>
           </div>
           <div className={`row mt-5 justify-content-center align-items-center`}>
             <div className='col-12 col-md-5 mt-5 col-lg-4 mb-3 order-md-2'>
