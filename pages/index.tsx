@@ -104,20 +104,14 @@ const Home: NextPage = () => {
               <p>Una vez empiezas a ver el video los subtítulos aparecerán, si no entiendes una palabra puedes presionar sobre ella y se abrirá una ventana donde la puedes analizar, viendo la traducción al español o escuchándola en distintas velocidades.</p>
               <p>Puedes seleccionar más de una palabra para analizar la frase completa.</p>
             </div>
-            {/* <div className='col-12 col-md-5 col-lg-6 order-md-1'>
-              <Image src={inicialVideo} />
-            </div> */}
-            <div className={styles.containerVerticalCellphone}>
+            <div className='col-12 col-md-5 col-lg-6 order-md-1'>
               <Image src={inicialVideo} />
             </div>
 
           </div>
           <div className={`${styles.whiteSection} justify-content-center row pt-5 pb-5`}>
             <div className='col-12 col-md-8 col-lg-6'>
-              {/* <Image src={playerButtons} /> */}
-              <div className={styles.containerVerticalCellphone}>
-                <Image src={playerButtons} />
-              </div>
+              <Image src={playerButtons} />
               <p className={`${styles.subtitles} mt-5`}>Retroceder o adelantar el video en cortos plazos para escuchar en repetidas ocasiones la frase.</p>
             </div>
           </div>
