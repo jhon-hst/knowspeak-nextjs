@@ -26,7 +26,7 @@ const Home: NextPage = () => {
 
         <main className=''>
           <div className={`row ${styles.header} pb-md-3`}>
-            <h1 className={styles.titleLogo}>Know<span>Speak</span></h1>
+            <h1 className={'titleLogo'}>Know<span>Speak</span></h1>
             <div className='col-12 col-md-7 '>
               <h2 className={`${styles.title} mt-3 mt-md-5`}>Aprende inglés viendo videos ✈</h2>
               <div className={`${styles.containerImageHeader} d-md-none`}>
