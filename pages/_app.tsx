@@ -6,9 +6,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   const NEXT_PUBLIC_GOOGLE_ANALYTICS = 'G-TC5MEN8H66'
   return <>
 
-    <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+    <Script id="first-line-google-analyticss" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
 
-    <Script strategy="lazyOnload">
+    <Script id="second-line-google-analyticss" strategy="lazyOnload">
       {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
