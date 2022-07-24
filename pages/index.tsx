@@ -12,6 +12,7 @@ import {
   inicialVideo,
   playerButtons,
 } from '@assets/Images'
+import { FacebookIcon, TelegramIcon } from '@assets/Svg'
 
 const Home: NextPage = () => {
 
@@ -127,6 +128,14 @@ const Home: NextPage = () => {
         <Link href="/privacy-policies">
           <a className={styles.link}>Políticas de privacidad</a>
         </Link>
+        <div>
+          <a target="_blank" rel="noreferrer" className='me-2' href='https://www.facebook.com/KnowSpeak'>
+            <Image priority src={FacebookIcon} height={40} width={40} />
+          </a>
+          <a target="_blank" rel="noreferrer" href='https://t.me/knowspeakoficial'>
+            <Image priority src={TelegramIcon} height={40} width={40} />
+          </a>
+        </div>
       </footer>
     </div >
   )
