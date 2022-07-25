@@ -76,7 +76,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       declineButtonText="Sólo funcional">
       Utilizamos cookies para optimizar nuestro sitio web y nuestro servicio
       <Link href="/privacy-policies">
-        <a className={styles.link}>Políticas de privacidad</a>
+        <a className={styles.link}> - Políticas de privacidad</a>
       </Link>
     </CookieConsent>
     <Component {...pageProps} />
