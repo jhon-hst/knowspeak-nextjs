@@ -7,6 +7,12 @@ import Script from 'next/script';
 import Link from 'next/link';
 import styles from './Landing.module.scss'
 
+declare global {
+  interface Window {
+    gtag: any;
+  }
+}
+
 function MyApp({ Component, pageProps }: AppProps) {
   const NEXT_PUBLIC_GOOGLE_ANALYTICS = 'G-TC5MEN8H66'
 
