@@ -6,6 +6,7 @@ import inicial from './inicial.png'
 import partesDelTraductor from './partes-del-traductor.png'
 import playerButtons from './player-buttons.png'
 import windowTraductor from './window-traductor.png'
+import appStoreBadge from './app-store-badge.png'
 
 export {
     borderInFieldToSubtitles,
@@ -15,5 +16,6 @@ export {
     inicial,
     partesDelTraductor,
     playerButtons,
-    windowTraductor
+    windowTraductor,
+    appStoreBadge
 }

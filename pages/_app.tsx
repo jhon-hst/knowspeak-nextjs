@@ -66,7 +66,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           });
     `}
     </Script>
-    <CookieConsent
+    {/* <CookieConsent
       location="bottom"
       buttonText="Todas las cookies"
       onAccept={() => location.reload()}
@@ -78,7 +78,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Link href="/privacy-policies">
         <a className={styles.link}> - Políticas de privacidad</a>
       </Link>
-    </CookieConsent>
+    </CookieConsent> */}
     <Component {...pageProps} />
   </>
 }

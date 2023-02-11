@@ -11,6 +11,7 @@ import {
   borderInFieldToSubtitles,
   inicialVideo,
   playerButtons,
+  appStoreBadge
 } from '@assets/Images'
 import { FacebookIcon, TelegramIcon } from '@assets/Svg'
 
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
           <title>KnowSpeak</title>
           <meta name="description" content="Aprende inglés viendo videos, Que mejor manera de aprender un idioma que escuchando y analizando a los nativos." />
           <link rel="icon" href="/knowspeakicon.png" />
+          <meta name="facebook-domain-verification" content="4efx3wwjb593q3maranyl90twdobpo" />
         </Head>
 
         <main className=''>
@@ -35,10 +37,17 @@ const Home: NextPage = () => {
               </div>
               <p className={`mt-2 mb-4 mt-md-3 ${styles.description}`}>La mejor manera de aprender un idioma es escuchando y analizando a los nativos. </p>
               <p className={`mt-2 mb-4 mt-md-3 ${styles.description}`}>Esta App es una excelente herramienta que te hará la vida muy fácil para analizar palabras o frases a través de los subtítulos de un video. 🏁</p>
-              <div className={`${styles.containerStoreImage} mb-3 mt-5`}>
-                <a target="_blank" rel="noreferrer" href='https://play.google.com/store/apps/details?id=com.knowspeak&hl=es_CO&gl=US'>
-                  <Image src={googlePlayBadge} width={100} height={30} layout="responsive" />
-                </a>
+              <div className='row'>
+                <div className={`${styles.containerStoreImage} mb-3 mt-5`}>
+                  <a target="_blank" rel="noreferrer" href='https://play.google.com/store/apps/details?id=com.knowspeak&hl=es_CO&gl=US'>
+                    <Image src={googlePlayBadge} width={100} height={30} layout="responsive" />
+                  </a>
+                </div>
+                <div className={`${styles.containerStoreImage} mb-3 mt-5`}>
+                  <a target="_blank" rel="noreferrer" href='https://apps.apple.com/us/app/id1667114593'>
+                    <Image src={appStoreBadge} width={100} height={30} layout="responsive" />
+                  </a>
+                </div>
               </div>
             </div>
             <div className='col-12 col-md-5 d-none d-md-block'>
