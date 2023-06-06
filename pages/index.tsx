@@ -3,16 +3,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from './Landing.module.scss'
 import Image from 'next/image'
-import {
-    inicial,
-    googlePlayBadge,
-    partesDelTraductor,
-    borderInFieldVideo,
-    borderInFieldToSubtitles,
-    inicialVideo,
-    playerButtons,
-    appStoreBadge,
-} from '@assets/Images'
 import { FacebookIcon, TelegramIcon } from '@assets/Svg'
 
 const Home: NextPage = () => {
@@ -25,10 +15,14 @@ const Home: NextPage = () => {
                         name="description"
                         content="Aprende inglés viendo videos, Que mejor manera de aprender un idioma que escuchando y analizando a los nativos."
                     />
-                    <link rel="icon" href="/knowspeakicon.png" />
+                    <link rel="icon" href="/favicon.ico" />
                     <meta
                         name="facebook-domain-verification"
                         content="4efx3wwjb593q3maranyl90twdobpo"
+                    />
+                    <meta
+                        name="yandex-verification"
+                        content="8cfeb02380ee8615"
                     />
                 </Head>
 
@@ -45,7 +39,9 @@ const Home: NextPage = () => {
                                 className={`${styles.containerImageHeader} d-md-none`}
                             >
                                 <Image
-                                    src={inicial}
+                                    src={
+                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Finicial.png?alt=media&token=345f0501-b668-4b16-9c97-ef06ee3487a3'
+                                    }
                                     width={1}
                                     height={2}
                                     layout="responsive"
@@ -76,7 +72,9 @@ const Home: NextPage = () => {
                                         href="https://play.google.com/store/apps/details?id=com.knowspeak&hl=es_CO&gl=US"
                                     >
                                         <Image
-                                            src={googlePlayBadge}
+                                            src={
+                                                'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fgoogle-play-badge.png?alt=media&token=8506c016-5d88-43bf-8438-559676e2c3c1'
+                                            }
                                             width={100}
                                             height={30}
                                             layout="responsive"
@@ -93,7 +91,9 @@ const Home: NextPage = () => {
                                         href="https://apps.apple.com/us/app/id1667114593"
                                     >
                                         <Image
-                                            src={appStoreBadge}
+                                            src={
+                                                'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fapp-store-badge.png?alt=media&token=f5b27476-9f98-4813-8723-2d8cc844d6f3'
+                                            }
                                             width={100}
                                             height={30}
                                             layout="responsive"
@@ -106,7 +106,9 @@ const Home: NextPage = () => {
                         <div className="col-12 col-md-5 d-none d-md-block">
                             <div className={styles.containerImageHeader}>
                                 <Image
-                                    src={inicial}
+                                    src={
+                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Finicial.png?alt=media&token=345f0501-b668-4b16-9c97-ef06ee3487a3'
+                                    }
                                     width={1}
                                     height={2}
                                     layout="responsive"
@@ -162,7 +164,15 @@ const Home: NextPage = () => {
                         className={`${styles.whiteSection} justify-content-center row pb-5`}
                     >
                         <div className="col-12 col-md-8 col-lg-6">
-                            <Image src={partesDelTraductor} alt="" />
+                            <Image
+                                src={
+                                    'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fpartes-del-traductor.png?alt=media&token=2547d67a-79c4-4b6c-bbbf-81a13ca0ed64'
+                                }
+                                alt=""
+                                width={2}
+                                height={1.8}
+                                layout="responsive"
+                            />
                             <p className={`${styles.subtitles} mt-5`}>
                                 Nuestra App te permite hacer un análisis de cada
                                 palabra o de cada frase, traduciendo en el
@@ -191,7 +201,15 @@ const Home: NextPage = () => {
                         </div>
                         <div className="col-12 col-md-5 col-lg-3 d-flex justify-content-center order-md-1 ">
                             <div className={styles.containerVerticalCellphone}>
-                                <Image src={borderInFieldVideo} alt="" />
+                                <Image
+                                    src={
+                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fborder-in-field-video.png?alt=media&token=807c563c-b412-4116-8f54-619474b0631a'
+                                    }
+                                    alt=""
+                                    width={1}
+                                    height={2}
+                                    layout="responsive"
+                                />
                             </div>
                         </div>
                     </div>
@@ -215,7 +233,15 @@ const Home: NextPage = () => {
                         </div>
                         <div className="col-12 col-md-5 col-lg-3 d-flex justify-content-center">
                             <div className={styles.containerVerticalCellphone}>
-                                <Image src={borderInFieldToSubtitles} alt="" />
+                                <Image
+                                    src={
+                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fborder-in-field-to-subtitles.png?alt=media&token=f7c2157b-b2dc-46af-8008-34503cd8c2d8'
+                                    }
+                                    alt=""
+                                    width={1}
+                                    height={2}
+                                    layout="responsive"
+                                />
                             </div>
                         </div>
                     </div>
@@ -238,14 +264,30 @@ const Home: NextPage = () => {
                             </p>
                         </div>
                         <div className="col-12 col-md-5 col-lg-6 order-md-1">
-                            <Image src={inicialVideo} alt="" />
+                            <Image
+                                src={
+                                    'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Finicial-video.png?alt=media&token=72300b56-7903-4a61-b9d7-638610b71025'
+                                }
+                                alt=""
+                                width={2}
+                                height={1}
+                                layout="responsive"
+                            />
                         </div>
                     </div>
                     <div
                         className={`${styles.whiteSection} justify-content-center row pt-5 pb-5`}
                     >
                         <div className="col-12 col-md-8 col-lg-6">
-                            <Image src={playerButtons} alt="" />
+                            <Image
+                                src={
+                                    'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fplayer-buttons.png?alt=media&token=727b7934-fcf7-40f6-ac40-1ea7f2769b05'
+                                }
+                                alt=""
+                                width={2}
+                                height={1.3}
+                                layout="responsive"
+                            />
                             <p className={`${styles.subtitles} mt-5`}>
                                 Retroceder o adelantar el video en cortos plazos
                                 para escuchar en repetidas ocasiones la frase.
