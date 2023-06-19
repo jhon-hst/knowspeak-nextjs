@@ -40,7 +40,7 @@ const Home: NextPage = () => {
                             >
                                 <Image
                                     src={
-                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Finicial.webp?alt=media&token=e1bc8a9d-f54d-4ced-aa54-4608ced1f4d3'
+                                        'https://cdn.britannica.com/99/164799-050-739F9D47/Sally-Ride-Challenger-control-panels-June-1983.jpg?w=630'
                                     }
                                     width={1}
                                     height={2}
@@ -107,7 +107,7 @@ const Home: NextPage = () => {
                             <div className={styles.containerImageHeader}>
                                 <Image
                                     src={
-                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Finicial.webp?alt=media&token=e1bc8a9d-f54d-4ced-aa54-4608ced1f4d3'
+                                        'https://im.indiatimes.in/content/2023/Jun/118557490_311589683404873_7251208519545868067_n_64909bd67008e.jpg?w=180&h=240&cc=1'
                                     }
                                     width={1}
                                     height={2}
@@ -166,7 +166,7 @@ const Home: NextPage = () => {
                         <div className="col-12 col-md-8 col-lg-6">
                             <Image
                                 src={
-                                    'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fpartes-del-traductor.webp?alt=media&token=4e56f371-f3e9-4a59-9e81-09ef5390c190'
+                                    'https://cdn.britannica.com/99/164799-050-739F9D47/Sally-Ride-Challenger-control-panels-June-1983.jpg?w=630'
                                 }
                                 alt=""
                                 width={2}
