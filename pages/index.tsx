@@ -40,7 +40,7 @@ const Home: NextPage = () => {
                             >
                                 <Image
                                     src={
-                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Finicial.webp?alt=media&token=e1bc8a9d-f54d-4ced-aa54-4608ced1f4d3'
+                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6.appspot.com/o/knowspeak-assets%2Finicial.webp?alt=media&token=8c60178a-8bd5-45f6-b097-3f59a0df01f9'
                                     }
                                     width={1}
                                     height={2}
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
                                     >
                                         <Image
                                             src={
-                                                'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fgoogle-play-badge.webp?alt=media&token=82bc8496-38e9-458e-9278-dc9ca69c703b'
+                                                'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6.appspot.com/o/knowspeak-assets%2Fgoogle-play-badge.webp?alt=media&token=30b38fcb-cd76-4335-9958-3ea912233bf1'
                                             }
                                             width={100}
                                             height={30}
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
                                     >
                                         <Image
                                             src={
-                                                'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fapp-store-badge.webp?alt=media&token=f9d0e588-c3ef-48e8-82aa-74b2543e28b1'
+                                                'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6.appspot.com/o/knowspeak-assets%2Fapp-store-badge.webp?alt=media&token=24c566aa-af44-49fd-b4bc-cc7946fece8b'
                                             }
                                             width={100}
                                             height={30}
@@ -107,7 +107,7 @@ const Home: NextPage = () => {
                             <div className={styles.containerImageHeader}>
                                 <Image
                                     src={
-                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Finicial.webp?alt=media&token=e1bc8a9d-f54d-4ced-aa54-4608ced1f4d3'
+                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6.appspot.com/o/knowspeak-assets%2Finicial.webp?alt=media&token=8c60178a-8bd5-45f6-b097-3f59a0df01f9'
                                     }
                                     width={1}
                                     height={2}
@@ -166,7 +166,7 @@ const Home: NextPage = () => {
                         <div className="col-12 col-md-8 col-lg-6">
                             <Image
                                 src={
-                                    'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fpartes-del-traductor.webp?alt=media&token=4e56f371-f3e9-4a59-9e81-09ef5390c190'
+                                    'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6.appspot.com/o/knowspeak-assets%2Fpartes-del-traductor.webp?alt=media&token=e7a27bec-6f74-431b-9860-88117fc7d04c'
                                 }
                                 alt=""
                                 width={2}
@@ -203,7 +203,7 @@ const Home: NextPage = () => {
                             <div className={styles.containerVerticalCellphone}>
                                 <Image
                                     src={
-                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fborder-in-field-video.webp?alt=media&token=e64ea795-107e-4e8b-96fc-35866915ee1b'
+                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6.appspot.com/o/knowspeak-assets%2Fborder-in-field-video.webp?alt=media&token=0422292a-eae8-45df-aa96-4614d612072f'
                                     }
                                     alt=""
                                     width={1}
@@ -235,7 +235,7 @@ const Home: NextPage = () => {
                             <div className={styles.containerVerticalCellphone}>
                                 <Image
                                     src={
-                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fborder-in-field-to-subtitles.webp?alt=media&token=e4f86e6b-da7a-414a-85e4-851738cd0886'
+                                        'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6.appspot.com/o/knowspeak-assets%2Fborder-in-field-to-subtitles.webp?alt=media&token=ea936a51-96b9-4cdd-aa3c-d2ff03867219'
                                     }
                                     alt=""
                                     width={1}
@@ -266,7 +266,7 @@ const Home: NextPage = () => {
                         <div className="col-12 col-md-5 col-lg-6 order-md-1">
                             <Image
                                 src={
-                                    'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fwindow-traductor.webp?alt=media&token=6b1463ba-1449-4636-9722-cc60aa2fd93f'
+                                    'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6.appspot.com/o/knowspeak-assets%2Fwindow-traductor.webp?alt=media&token=5f0fb590-d74f-4371-a787-6f6b87765640'
                                 }
                                 alt=""
                                 width={2}
@@ -281,7 +281,7 @@ const Home: NextPage = () => {
                         <div className="col-12 col-md-8 col-lg-6">
                             <Image
                                 src={
-                                    'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6/o/knowspeak-assets%2Fplayer-buttons.webp?alt=media&token=dab0ba77-ea92-46fd-ac15-8fe691d0af7b'
+                                    'https://firebasestorage.googleapis.com/v0/b/knowspeak-fdec6.appspot.com/o/knowspeak-assets%2Fplayer-buttons.webp?alt=media&token=77f6b023-5612-4aaf-97ec-f209440ad7f6'
                                 }
                                 alt=""
                                 width={2}
