@@ -14,6 +14,10 @@ const PrivatePolicies: NextPage = () => {
                     content="KnowSpeak - Políticas de Privacidad - Aprende inglés viendo videos, Que mejor manera de aprender un idioma que escuchando y analizando a los nativos."
                 />
                 <link rel="icon" href="/knowspeakicon.png" />
+                <link
+                    rel="canonical"
+                    href="https://know-speak.com/privacy-policies"
+                ></link>
             </Head>
 
             <main className={'container'}>
@@ -33,7 +37,7 @@ const PrivatePolicies: NextPage = () => {
                     aplicación KnowSpeak o página web knowspeak.net. Si tiene
                     preguntas adicionales o necesita más información sobre
                     nuestra Política de privacidad, contáctenos a través del
-                    correo electrónico soporte@knowspeak.net .
+                    correo electrónico jhonhst2@gmail.com .
                 </p>
                 <h4>Tipos de información personal recopilada</h4>
                 {/* Cuando pida información personal */}
@@ -217,7 +221,7 @@ const PrivatePolicies: NextPage = () => {
         <p>La información personal impresa en papel se tritura con una trituradora y la información personal almacenada en forma de archivo electrónico se elimina utilizando un método técnico que no permite restaurar los registros.</p> */}
                 {/* Cuando pida información personal */}
                 {/* <h4>Gestión Técnica Protección de Datos Personales</h4>
-        <p>Las preguntas, comentarios y solicitudes con respecto a esta política deben escribír al correo de soporte@knowspeak.net</p>
+        <p>Las preguntas, comentarios y solicitudes con respecto a esta política deben escribír al correo de jhonhst2@gmail.com</p>
         <p>Al manejar la información personal de sus usuarios, KnowSpeak busca las siguientes medidas técnicas y administrativas para garantizar la seguridad a fin de evitar que la información personal se pierda, sea robada, filtrada, manipulado o dañado.</p>
         <ul>
           <li>La información personal del usuario se almacena y gestiona a través de un sistema de comunicación cifrado (SSL) y la contraseña se almacena y gestiona de forma unidireccional para que no pueda ser decodificada.</li>

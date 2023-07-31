@@ -24,6 +24,7 @@ const Home: NextPage = () => {
                         name="yandex-verification"
                         content="8cfeb02380ee8615"
                     />
+                    <link rel="canonical" href="https://know-speak.com"></link>
                 </Head>
 
                 <main className="">

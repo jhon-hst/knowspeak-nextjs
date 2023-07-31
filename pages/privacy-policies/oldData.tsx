@@ -152,8 +152,8 @@ const PrivatePolicies: NextPage = () => {
                     <br />
                     Para ejercitar tus derechos de acceso, rectificación,
                     cancelación, portabilidad y oposición tienes que enviar un
-                    correo electrónico a soporte@knowspeak.io junto con la
-                    prueba válida en derecho como una fotocopia del D.N.I. o
+                    correo electrónico a jhonhst2@gmail.comjunto con la prueba
+                    válida en derecho como una fotocopia del D.N.I. o
                     equivalente.
                     <br />
                     <br />
