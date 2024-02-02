@@ -29,7 +29,7 @@ const Home: NextPage = () => {
 
                 <main className="">
                     <div className={`row ${styles.header} pb-md-3`}>
-                        <h1 className={'titleLogo'}>
+                        <h1 className={styles.titleLogo}>
                             Know<span>Speak</span>
                         </h1>
                         <div className="col-12 col-md-7 ">
@@ -131,7 +131,7 @@ const Home: NextPage = () => {
                             >
                                 <path
                                     d="M0.00,49.99 C148.14,146.55 271.49,-49.99 500.00,49.99 L500.00,0.00 L0.00,0.00 Z"
-                                    style={{ stroke: 'none', fill: '#263859' }}
+                                    style={{ stroke: 'none', fill: '#00b2ff' }}
                                 ></path>
                             </svg>
                         </div>

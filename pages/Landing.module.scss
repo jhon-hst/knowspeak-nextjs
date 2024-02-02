@@ -1,21 +1,21 @@
-@import "../styles/variables";
+@import '../styles/variables';
 
 .landing {
-    background-color: $background ;
+    background-color: $background;
     color: $text;
 
     .header {
-        background-color: $text;
+        background-color: $blue;
         color: $background;
         padding: 10px 20px 0 10px;
 
         .titleLogo {
             font-weight: 900;
-            color: $notification;
+            color: $white !important;
             font-size: 2rem;
 
             span {
-                color: $primary;
+                color: $white !important;
             }
         }
 
@@ -37,7 +37,6 @@
             width: 60%;
             margin: auto;
         }
-
     }
 
     .containerVerticalCellphone {
@@ -61,7 +60,7 @@
     }
 
     .footer {
-        background-color: $text;
+        background-color: $blue;
         color: $background;
         height: 60px;
         padding: 15px;
@@ -75,7 +74,7 @@
         }
 
         .link:hover {
-            color: $primary;
+            color: $text;
         }
     }
 
@@ -83,14 +82,11 @@
         font-size: 1.5rem;
         text-align: center;
     }
-
 }
 
 @media (min-width: 768px) {
     .landing {
-
         .header {
-
             padding: 30px 30px 0 30px;
 
             .title {
@@ -118,7 +114,6 @@
 
 @media (min-width: 992px) {
     .landing {
-
         .header {
             padding: 30px 100px 0 100px;
             z-index: 1;
